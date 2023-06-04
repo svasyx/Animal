@@ -89,7 +89,7 @@ void List::Add(const Node& object)
     }
 }
 
-Apartment*& List::operator[](const int index)
+Animal*& List::operator[](const int index)
 {
     int counter = 0;
     Node* cur = _head;
@@ -108,14 +108,14 @@ Apartment*& List::operator[](const int index)
     }
 }
 
-List& List::operator+(Apartment* object)
+List& List::operator+(Animal* object)
 {
     Node node(object);
     Add(node);
     return *this;
 }
 
-List& List::operator-(Apartment* object)
+List& List::operator-(Animal* object)
 {
     Node* cur = _head;
     Node* tmp = nullptr;

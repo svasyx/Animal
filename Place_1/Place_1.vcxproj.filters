@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Apartment.cpp">
+    <ClCompile Include="Animal.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="List.cpp">
@@ -27,18 +27,18 @@
     <ClCompile Include="Node.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Hruschovka.cpp">
+    <ClCompile Include="Bird.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Modern.cpp">
+    <ClCompile Include="Even_toed.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="PentHouse.cpp">
+    <ClCompile Include="Mammals.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apartment.h">
+    <ClInclude Include="Animal.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Header.h">
@@ -50,13 +50,13 @@
     <ClInclude Include="Node.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Hruschovka.h">
+    <ClInclude Include="Bird.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Modern.h">
+    <ClInclude Include="Even_toed.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="PentHouse.h">
+    <ClInclude Include="Mammals.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

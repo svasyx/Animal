@@ -1,19 +1,19 @@
 #pragma once
 #include "Header.h"
-#include "Apartment.h"
-#include "Modern.h"
-#include "PentHouse.h"
-#include "Hruschovka.h"
+#include "Animal.h"
+#include "Bird.h"
+#include "Even_toed.h"
+#include "Mammals.h"
 
 class Node
 {
     friend class List;
 public:
-    Apartment* Get_data() const;
+    Animal* Get_data() const;
     // Node(const Node& node);
     ~Node();
 private:
-    Apartment* _data;
+    Animal* _data;
     Node* _next;
-    Node(Apartment* obj);
+    Node(Animal* obj);
 };

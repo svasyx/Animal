@@ -1,9 +1,9 @@
-﻿#include "Apartment.h"
+﻿#include "Animal.h"
 #include "List.h"
 #include "Header.h"
-#include "Hruschovka.h"
-#include "Modern.h"
-#include "PentHouse.h"
+#include "Bird.h"
+#include "Even_toed.h"
+#include "Mammals.h"
 
 
 
@@ -12,22 +12,22 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
  
-    Modern obj("MPI", 1 , 2, 3);
+    Mammals obj("Elephant", "mammals", 1200, 116.1);
 
-    Apartment** apart = new Apartment * []
+    Animal** animals = new Animal * []
     {
-            new Modern("MPI_1", 1, 150000, 121),
-            new PentHouse("PP1", 2, 200, 22),
-            new Hruschovka("HPI", 3, 30000000, 20),
-            new Modern("MPI_2", 4, 150000, 121)
+            new Bird("Eagle", "eagles", 12, 0.2),
+            new Mammals("Kyt2", "mammals", 1223, 123.1),
+            new Even_toed("Horse", "horsee", 123, 12.1),
+            new Mammals("Kyt", "mammals", 12333, 11123.1)
 
     };
 
     List list;
-    list + apart[0];
-    list + apart[1];
-    list + apart[2];
-    list + apart[3];
+    list + animals[0];
+    list + animals[1];
+    list + animals[2];
+    list + animals[3];
     list + &obj;
 
     cout << "-----------------------------------" << endl;
@@ -36,7 +36,7 @@ int main()
     list.Print();
     cout << "-----------------------------------" << endl;
     cout << endl;
-    list - apart[2];
+    list - animals[2];
     list - &obj;
 
     cout <<"-----------------------------------" << endl;

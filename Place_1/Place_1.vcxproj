@@ -140,22 +140,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Modern.cpp" />
+    <ClCompile Include="Even_toed.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Hruschovka.cpp" />
+    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="Node.cpp" />
-    <ClCompile Include="Apartment.cpp" />
-    <ClCompile Include="PentHouse.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Mammals.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Modern.h" />
+    <ClInclude Include="Even_toed.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="List.h" />
-    <ClInclude Include="Hruschovka.h" />
+    <ClInclude Include="Bird.h" />
     <ClInclude Include="Node.h" />
-    <ClInclude Include="Apartment.h" />
-    <ClInclude Include="PentHouse.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Mammals.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

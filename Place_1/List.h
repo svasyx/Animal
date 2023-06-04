@@ -15,12 +15,9 @@ public:
 
     
 
-
-
-
-    Apartment*& operator[](const int pos);
-    List& operator+(Apartment* obj);
-    List& operator-(Apartment* obj);
+    Animal*& operator[](const int pos);
+    List& operator+(Animal* obj);
+    List& operator-(Animal* obj);
     List& operator=(const List& lst);
     bool operator!=(const List& lst);
     ~List();

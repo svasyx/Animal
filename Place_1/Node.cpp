@@ -1,6 +1,6 @@
 #include "Node.h"
 
-Apartment* Node::Get_data() const
+Animal* Node::Get_data() const
 {
     return _data;
 }
@@ -16,7 +16,7 @@ Node::~Node()
     delete _data;
 }
 
-Node::Node(Apartment* obj)
+Node::Node(Animal* obj)
 {
     _data = obj->Clone();
 
