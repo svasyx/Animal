@@ -24,7 +24,7 @@
     <ProjectGuid>{5b0ff6dc-8650-4c2a-951c-d231eafa318c}</ProjectGuid>
     <RootNamespace>Place1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Flat_1</ProjectName>
+    <ProjectName>Animal</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
